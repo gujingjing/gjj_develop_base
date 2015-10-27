@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--拍照显示的String条目-->
+    <string-array name="photo_string">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </string-array>
+</resources>

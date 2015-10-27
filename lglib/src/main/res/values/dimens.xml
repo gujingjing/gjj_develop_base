@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题栏-->
+    <dimen name="title_bar_height">50dp</dimen>
+    <!-- 固定字体大小 -->
+    <dimen name="xx_small_size">12sp</dimen>
+    <dimen name="x_small_size">14sp</dimen>
+    <dimen name="normal_size">16sp</dimen>
+    <dimen name="x_big_size">18sp</dimen>
+    <dimen name="xx_big_size">22sp</dimen>
+    <!--dialog_edittext_height-->
+    <dimen name="dialog_edittext_height">35dp</dimen>
+    <!--edittext高地-->
+    <dimen name="edittext_height">35dp</dimen>
+    <!--标题栏左右按钮边距-->
+    <dimen name="drawblePading">1dp</dimen>
+    <!--edittext_高度-->
+    <dimen name="edit_editheight">150dp</dimen>
+</resources>

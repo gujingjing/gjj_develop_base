@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:background="@drawable/alert_bg"
+    android:orientation="vertical"
+    android:paddingTop="15dp" >
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="123"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/text_color"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_context"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/mid_tab_on"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:textColor="@color/text_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_centerVertical="true"
+            android:hint="请输入您的手机号" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dialog_edittext_height"
+            android:gravity="center"
+            android:background="@drawable/table_mid_selector"
+            android:text="@string/cancel"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dialog_edittext_height"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:background="@drawable/table_mid_selector"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

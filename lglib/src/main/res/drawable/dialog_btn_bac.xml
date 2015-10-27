@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">  
+   <!-- pressed 背景颜色值 -->  
+  <item android:state_enabled="true"    android:state_pressed="true" android:top="1px"  android:right="1px"  android:left="1px"  android:bottom="1px" > 
+        <shape> 
+          <solid android:color="@color/gray"/>
+           <!-- 圆角 -->
+           <corners android:topLeftRadius="3dp" android:topRightRadius="3dp"
+                 android:bottomRightRadius="3dp" android:bottomLeftRadius="3dp" />
+        </shape> 
+      
+  </item>
+  
+    
+  <!-- enabled 背景颜色值 -->  
+  <item android:state_enabled="false"    android:top="1px"  android:right="1px"  android:left="1px"  android:bottom="1px" > 
+        <shape> 
+          <solid android:color="@color/gray"/>
+           <!-- 圆角 -->
+           <corners android:topLeftRadius="3dp" android:topRightRadius="3dp"
+                 android:bottomRightRadius="3dp" android:bottomLeftRadius="3dp" />
+        </shape>      
+  </item>
+  
+  
+    <!-- 主体背景颜色值 -->  
+  <item android:top="1px"  android:right="1px"  android:left="1px"  android:bottom="1px" > 
+        <shape> 
+          <solid android:color="@color/white"/>
+           <!-- 圆角 -->
+           <corners android:topLeftRadius="3dp" android:topRightRadius="3dp"
+                 android:bottomRightRadius="3dp" android:bottomLeftRadius="3dp" />
+          
+        </shape>      
+  </item> 
+
+</selector>
